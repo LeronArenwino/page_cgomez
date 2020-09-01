@@ -73,6 +73,17 @@ body{
 
 /*------------ main ------------*/
 
+/*------------ expirience ------------*/
+
+#expirience{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    max-height: 80vh;
+    height: 60vh;
+}
+
+/*------------ expirience ------------*/
+
 /*------------ footer ------------*/
 #footer{
     background-color: var(--black-second-color) ;
