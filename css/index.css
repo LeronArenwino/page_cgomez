@@ -8,6 +8,7 @@
     --white-blue-color:#27496D;
     --medium-blue-color:#00909E;
     --gray-color:#DAE1E7;
+    --black-second-color: #222831;
     
     /* Typography */
     --normal:15px;
@@ -74,10 +75,15 @@ body{
 
 /*------------ footer ------------*/
 #footer{
-    background-color: var(--black-color) ;
+    background-color: var(--black-second-color) ;
 }
 
 #footer p{
+    color: var(--white-color);
+}
+
+#footer p a{
+    text-decoration: none;
     color: var(--white-color);
 }
 
