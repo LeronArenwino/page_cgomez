@@ -1,0 +1,42 @@
+/*------------ variables ------------*/
+
+:root{
+    --green-color:#7ACC2D;
+    --white-color:white;
+    --black-color:#393e46;
+    --dark-blue-color:#142850;
+    --white-blue-color:#27496D;
+    --medium-blue-color:#00909E;
+    --gray-color:#DAE1E7;
+    
+    /* Typography */
+    --normal:15px;
+    
+    /* Spacing */
+    --space:10px;
+    
+    /* Box shadow */
+    --box:0 0 2px #C1BCBC;
+    
+    }
+    
+/*------------ variables ------------*/
+
+/*------------ body ------------*/
+
+body{
+    font-family: 'Asap', sans-serif;
+}
+
+/*------------ body ------------*/
+
+/*------------ footer ------------*/
+#footer{
+    background-color: var(--black-color) ;
+}
+
+#footer p{
+    color: var(--white-color);
+}
+
+/*------------ footer ------------*/
