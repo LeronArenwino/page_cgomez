@@ -30,6 +30,18 @@ body{
 
 /*------------ body ------------*/
 
+/*------------ header ------------*/
+
+.text-contact{
+    color: var(--green-color);
+}
+
+#header img{
+    width: 80px;
+}
+
+/*------------ header ------------*/
+
 /*------------ footer ------------*/
 #footer{
     background-color: var(--black-color) ;
