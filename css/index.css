@@ -84,6 +84,15 @@ body{
 
 /*------------ expirience ------------*/
 
+/*------------ clients ------------*/
+
+#clients{
+    height: 60vh;
+}
+
+/*------------ clients ------------*/
+
+
 /*------------ footer ------------*/
 #footer{
     background-color: var(--black-second-color) ;
