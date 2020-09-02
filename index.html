@@ -11,36 +11,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
     <title>Constructora Goméz</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar" data-offset="58">
 
     <!-- header -->
     <header>
-        <nav id="header" class="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav id="header" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/cg-logo.jpg" alt="CG logo">
                     Constructora Goméz
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
             
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Nosotros</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#main">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Proyectos</a>
+                        <a class="nav-link" href="#projects">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Experiencias</a>
+                        <a class="nav-link" href="#expirience">Experiencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Clientes</a>
+                        <a class="nav-link" href="#clients">Clientes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-contact" href="#">Contacto</a>
+                        <a class="nav-link text-contact" href="#footer">Contacto</a>
                     </li>
                 </ul>
                 </div>
@@ -80,10 +80,10 @@
     <!-- /main -->
 
     <!-- projects -->
-    <section id="projects" class="mt-5">
+    <section id="projects" class="pt-5">
         <div class="container">
             <div class="row">
-                <div class="col text-center text-uppercase">
+                <div class="col mt-5 text-center text-uppercase">
                     <small>conoce nuestros</small>
                     <h1>proyectos</h1>
                 </div>
@@ -191,7 +191,7 @@
     <!-- /projects -->
 
     <!-- expirience -->
-    <section id="expirience" class="mt-5">
+    <section id="expirience" class="pt-5">
         <div class="container-fluid">
             <div class="row">
                 <!-- <div class="col-12 col-lg-6 pl-0 pr-0">
@@ -212,7 +212,7 @@
     <!-- /expirience -->
 
     <!-- clients -->
-    <section id="clients" class="mt-5">
+    <section id="clients" class="pt-5">
         <div class="container-fluid">
             <div class="row">
                 <!-- <div class="col-12 col-lg-6 pl-0 pr-0">
@@ -233,7 +233,7 @@
     <!-- /clients -->
 
     <!-- footer -->
-    <footer id="footer" class="pb-4 pt-4">
+    <footer id="footer" class="mt-5 pt-5 pb-4 pt-4">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12 col-lg">
