@@ -73,11 +73,18 @@ body{
 
 /*------------ main ------------*/
 
+#projects{
+    background-color: var(--black-color);
+}
+
+#projects small,
+#projects h1{
+    color: var(--white-color);
+}
+
 /*------------ expirience ------------*/
 
 #expirience{
-    background-color: var(--black-color);
-    color: var(--white-color);
     max-height: 80vh;
     height: 80vh;
 }
@@ -87,7 +94,12 @@ body{
 /*------------ clients ------------*/
 
 #clients{
-    height: 80vh;
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+#clients img{
+    max-width: 100%;
 }
 
 /*------------ clients ------------*/
