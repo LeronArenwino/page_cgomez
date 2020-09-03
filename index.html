@@ -8,14 +8,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     <title>Constructora Goméz</title>
   </head>
   <body data-spy="scroll" data-target="#navbar" data-offset="58">
 
     <!-- header -->
     <header>
-        <nav id="header" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/cg-logo.jpg" alt="CG logo">
@@ -40,7 +40,8 @@
                         <a class="nav-link" href="#clients">Clientes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-contact" href="#footer">Contacto</a>
+                        <!-- <a class="nav-link text-job" href="#">Trabaja con nosotros</a> -->
+                        <button class="btn btn-light my-2 my-sm-0" type="submit" data-target="#modalJob" data-toggle="modal">Trabaja con nosotros</button>
                     </li>
                 </ul>
                 </div>
@@ -68,9 +69,9 @@
                     <div class="row align-items-center">
                         <div class="col-md-6 offset-md-6 text-center text-md-right">
                             <h1>Constructora Goméz</h1>
-                            <p class="d-none d-md-block">
-                                Descripción.
-                            </p>
+                            <h5 class="d-none d-md-block">
+                                Paricipamos en la construcción de proyectos de vivienda, comercio, oficinas, fabricas, colegios, vias, puentes y tuneles.
+                            </h5>
                         </div>
                     </div>
                 </div>
@@ -83,7 +84,7 @@
     <section id="projects" class="pt-5">
         <div class="container">
             <div class="row">
-                <div class="col mt-5 text-center text-uppercase">
+                <div class="col mt-5 pb-5 text-center text-uppercase">
                     <small>conoce nuestros</small>
                     <h1>proyectos</h1>
                 </div>
@@ -210,16 +211,26 @@
                 <!-- <div class="col-12 col-lg-6 pl-0 pr-0">
                     <img src="images/architecture-1857175_1280.jpg" alt="experiencia-1">
                 </div> -->
-                <div class="col-12 mt-5 pt-4 pb-4 text-center text-uppercase">
+                <div class="col-12 mt-5 pb-4 text-center text-uppercase">
                     <small>acerca de nuestra</small>
                     <h1>experiencia</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col mb-4 text-center">
-                    <p>Descripción acerca de la empresa.</p>
+                <div class="col-12  text-center">
+                    <img width="270" height="250" class="mb-5 rounded-circle" src="images/20200903_121307.jpg" alt="">
                 </div>
             </div>
+            <div class="row">
+                <div class="col-12 mb-5 text-center">                    
+                    <p><em>"Empezamos con la construcción de 300m. de un canal de 1x1.20m. en 
+                        Villavicencio, ahora queremos poner al servicio del sector de la
+                        construcción 20 años de experiencia con calidad y cumplimiento en
+                        diversos proyectos en el país."</em>
+                    </p>
+                </div>
+            </div>
+            
         </div>
     </section>
     <!-- /expirience -->
@@ -236,19 +247,24 @@
                     <h1>clientes</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-4 offset-md-4 pt-5 pb-5 text-center">
-                    <img class="logo logo-light" src="https://conconcreto.com/wp-content/uploads/2018/07/logo_blancos.png" alt="Constructora Conconcreto">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-12 pt-5 pb-5 text-center">
+                    <img width="300" height="70" class="logo logo-light" src="images/conconcreto_logo.png" alt="Constructora Conconcreto">
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-12 pt-5 pb-5 text-center">
-                    <img class="logo logo-light" src="images/alcaldia_cali_logo.png" alt="Alcaldía de Cali">
+                    <img class="logo logo-light" src="images/industrial_conconcreto_logo.png" alt="Industrial Conconcreto">
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-12 pt-5 pb-5 text-center">
                     <img class="logo logo-light" src="images/soletanche_logo.png" alt="Soletanche-bachy">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 pt-5 pb-5 text-center">
+                    <img class="logo logo-light" src="images/alcaldia_cali_logo.png" alt="Alcaldía de Cali">
                 </div>
             </div>
         </div>
@@ -260,17 +276,15 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-12 col-lg">
-                    <p>BOGOTÁ
-                        <br>
-                        Oficina principal:
+                    <h5>BOGOTÁ</h5>
+                    <p>Oficina principal:
                         <br>
                         Barrio:
                     </p>
                 </div>
                 <div class="col-12 col-lg">
-                    <p>CONTACTO
-                        <br>
-                        Teléfono:
+                    <h5>CONTACTO</h5>
+                    <p>Teléfono:
                         <br>
                         Correo: cgomez@gmail.com
                         <br>
@@ -315,6 +329,28 @@
         </div>
     </div>
     <!-- /modal -->
+
+    <!-- job modal -->
+    <div class="modal fade" id="modalJob" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">¡Trabaja con nosotros!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body text-center">
+                <p>Por favor completa el formulario en el siguiente link</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd5kIZbPrca610Ugn_n62zHD9bjVf7ep2CeR0Id3aOVGF1xjA/viewform?usp=sf_link" target="_blank">Formulario</a>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- /job modal -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
