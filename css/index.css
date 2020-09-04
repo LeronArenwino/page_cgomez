@@ -96,6 +96,10 @@ body{
     color: var(--white-color);
 }
 
+#expirience img{
+    object-fit: cover;
+}
+
 /*------------ expirience ------------*/
 
 /*------------ clients ------------*/
