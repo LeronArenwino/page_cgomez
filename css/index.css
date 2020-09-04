@@ -79,11 +79,6 @@ body{
     background-color: var(--white-color);
 }
 
-#projects small,
-#projects h1{
-    color: var(--black-color);
-}
-
 /*------------ expirience ------------*/
 
 #expirience{
