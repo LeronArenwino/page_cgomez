@@ -1,6 +1,7 @@
 /*------------ variables ------------*/
 
 :root{
+    --dark-color:black;
     --green-color:#7ACC2D;
     --white-color:white;
     --black-color:#393e46;
@@ -26,15 +27,15 @@
 /*------------ body ------------*/
 
 body{
-    /* font-family: 'Asap', sans-serif; */
+    font-family: 'Roboto', sans-serif;
 }
 
 /*------------ body ------------*/
 
 /*------------ header ------------*/
 
-.text-contact{
-    color: var(--green-color);
+.text-job{
+    color: var(--medium-blue-color) !important;
 }
 
 #header img{
@@ -48,7 +49,7 @@ body{
 #main .carousel-inner img{
     max-height: 70vh;
     object-fit: cover;
-    filter: grayscale(50%);
+    filter: grayscale(70%);
 }
 
 #carousel{
@@ -69,34 +70,30 @@ body{
 #carousel .overlay .container,
 #carousel .overlay .row{
     height: 100%;
+    color: var(--white-color);
 }
 
 /*------------ main ------------*/
 
 #projects{
-    background-color: var(--black-color);
+    background-color: var(--white-color);
 }
 
 #projects small,
 #projects h1{
-    color: var(--white-color);
+    color: var(--black-color);
 }
 
 /*------------ expirience ------------*/
 
 #expirience{
-    max-height: 80vh;
-    height: 80vh;
+    background-color: var(--black-color);
+    color: var(--white-color);
 }
 
 /*------------ expirience ------------*/
 
 /*------------ clients ------------*/
-
-#clients{
-    background-color: var(--black-color);
-    color: var(--white-color);
-}
 
 #clients img{
     max-width: 100%;
@@ -110,8 +107,13 @@ body{
     background-color: var(--black-second-color) ;
 }
 
+#footer h5{
+    color: var(--white-color);
+}
+ 
 #footer p{
     color: var(--white-color);
+    font-size: 13px;
 }
 
 #footer p a{
