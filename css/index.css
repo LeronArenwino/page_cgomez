@@ -125,6 +125,10 @@ body {
   object-fit: cover;
 }
 
+.client-carousel {
+  height: 200px;
+}
+
 /*------------ expirience ------------*/
 
 /*------------ clients ------------*/

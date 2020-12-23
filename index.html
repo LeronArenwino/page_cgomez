@@ -62,7 +62,7 @@
                 <!-- <a class="nav-link text-job" href="#">Trabaja con nosotros</a> -->
                 <button
                   class="btn btn-dark mt-2 mt-sm-0 ml-0 ml-md-2"
-                  type="submit"
+                  type="button"
                   data-target="#modalJob"
                   data-toggle="modal"
                 >
@@ -404,41 +404,115 @@
     <!-- /expirience -->
 
     <!-- clients -->
-    <section id="clients" class="pt-4 pb-4">
+    <section id="clients" class="pt-5">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 mt-5 pt-4 pb-4 text-center text-uppercase">
+          <div class="col-12 mt-5 pb-5 text-center text-uppercase">
             <small>quienes son nuestros</small>
-            <h1>clientes</h1>
-          </div>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-12 col-md-12 pt-5 pb-5 text-center">
-            <img
-              width="300"
-              height="70"
-              class="logo logo-light"
-              src="images/conconcreto_logo.png"
-              alt="Constructora Conconcreto"
-            />
+            <h1 class="font-weight-bold">clientes</h1>
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-md-12 pt-5 pb-5 text-center">
-            <img
-              class="logo logo-light"
-              src="images/soletanche_logo.png"
-              alt="Soletanche-bachy"
-            />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-md-12 pt-5 pb-5 text-center">
-            <img
-              class="logo logo-light"
-              src="images/alcaldia_cali_logo.png"
-              alt="Alcaldía de Cali"
-            />
+          <div class="col-12 mt-4 mb-5">
+            <div
+              id="carouselExampleInterval"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner align-items-center">
+                <div
+                  class="client-carousel carousel-item active"
+                  data-interval="4000"
+                >
+                  <img
+                    src="images/conconcreto_logo.png"
+                    class="d-block mx-auto"
+                    alt="..."
+                    style="width: 300px; height: 70px"
+                  />
+                </div>
+                <div class="client-carousel carousel-item" data-interval="4000">
+                  <img
+                    src="images/soletanche_logo.png"
+                    class="d-block mx-auto"
+                    alt="..."
+                    style="width: 295px; height: 44px"
+                  />
+                </div>
+                <div class="client-carousel carousel-item" data-interval="4000">
+                  <img
+                    src="images/alcaldia_cali_logo.png"
+                    class="d-block mx-auto"
+                    alt="..."
+                    style="width: 130px; height: 100px"
+                  />
+                </div>
+                <div class="client-carousel carousel-item" data-interval="4000">
+                  <img
+                    src="images/bessac_logo.png"
+                    class="d-block mx-auto"
+                    alt="..."
+                    style="width: 191px; height: 72px"
+                  />
+                </div>
+                <div class="client-carousel carousel-item" data-interval="4000">
+                  <img
+                    src="images/geo_logo.png"
+                    class="d-block mx-auto"
+                    alt="..."
+                    style="width: 115px; height: 40px"
+                  />
+                </div>
+                <div class="client-carousel carousel-item" data-interval="4000">
+                  <img
+                    src="images/industrial_conconcreto_logo.png"
+                    class="d-block mx-auto"
+                    alt="..."
+                    style="width: 300px; height: 85px"
+                  />
+                </div>
+                <div class="client-carousel carousel-item" data-interval="4000">
+                  <img
+                    src="images/celam_logo.png"
+                    class="d-block mx-auto"
+                    alt="..."
+                    style="width: 101px; height: 100px"
+                  />
+                </div>
+                <div class="client-carousel carousel-item" data-interval="4000">
+                  <img
+                    src="images/ap_logo.svg"
+                    class="d-block mx-auto"
+                    alt="..."
+                    style="width: 300px; height: 70px"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleInterval"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleInterval"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -446,10 +520,10 @@
     <!-- /clients -->
 
     <!-- footer -->
-    <footer id="footer" class="pt-5 pb-4 pt-4">
-      <div class="container">
+    <footer id="footer" class="pt-5 pb-5">
+      <div class="container-fluid">
         <div class="row text-center">
-          <div class="col-12 col-lg">
+          <div class="col-12 col-lg-6">
             <h5>BOGOTÁ</h5>
             <p>
               Oficina principal: Carrera 70C N° 119A - 23
@@ -457,7 +531,7 @@
               Barrio: Niza Antigua
             </p>
           </div>
-          <div class="col-12 col-lg">
+          <div class="col-12 col-lg-6">
             <h5>CONTACTO</h5>
             <p>
               Teléfono: (571) 641 8290
@@ -472,10 +546,10 @@
           </div>
         </div>
         <div id="bottom-footer" class="row text-center">
-          <div class="col-12 col-lg">
+          <div class="col-12 col-lg-6">
             <p>© 2020 - Constructora Gomez - Todos los derechos reservados.</p>
           </div>
-          <div class="col-12 col-lg">
+          <div class="col-12 col-lg-6">
             <p>
               Diseño de sitio web
               <a
