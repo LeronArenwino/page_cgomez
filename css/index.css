@@ -4,11 +4,11 @@
   --dark-color: black;
   --green-color: #7acc2d;
   --white-color: white;
-  --black-color: #393e46;
+  --black-color: #292b2c;
   --dark-blue-color: #142850;
   --white-blue-color: #27496d;
   --medium-blue-color: #00909e;
-  --blue-color: #4b5970;
+  --blue-color: #f0da41;
   --gray-color: #dae1e7;
   --black-second-color: #0d0d0d;
 
@@ -52,14 +52,8 @@ body {
 /*------------ main ------------*/
 
 #main .carousel-inner img {
-  max-height: 80vh;
+  max-height: 95vh;
   object-fit: cover;
-}
-
-@media only screen and (max-width: 320px) {
-  #main .carousel-inner img {
-    max-height: 100vh;
-  }
 }
 
 #main img {
