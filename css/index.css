@@ -8,7 +8,7 @@
   --dark-blue-color: #142850;
   --white-blue-color: #27496d;
   --medium-blue-color: #00909e;
-  --blue-color: #34b6f7;
+  --blue-color: #4b5970;
   --gray-color: #dae1e7;
   --black-second-color: #0d0d0d;
 
@@ -80,7 +80,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
   color: var(--white-color);
   z-index: 1;
 }
@@ -89,6 +89,10 @@ body {
 #carousel .overlay .row {
   height: 100%;
   color: var(--white-color);
+}
+
+.main-text {
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 /*------------ main ------------*/
