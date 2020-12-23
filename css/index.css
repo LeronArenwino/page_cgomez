@@ -1,133 +1,157 @@
 /*------------ variables ------------*/
 
-:root{
-    --dark-color:black;
-    --green-color:#7ACC2D;
-    --white-color:white;
-    --black-color:#393e46;
-    --dark-blue-color:#142850;
-    --white-blue-color:#27496D;
-    --medium-blue-color:#00909E;
-    --gray-color:#DAE1E7;
-    --black-second-color: #222831;
-    
-    /* Typography */
-    --normal:15px;
-    
-    /* Spacing */
-    --space:10px;
-    
-    /* Box shadow */
-    --box:0 0 2px #C1BCBC;
-    
-    }
-    
+:root {
+  --dark-color: black;
+  --green-color: #7acc2d;
+  --white-color: white;
+  --black-color: #393e46;
+  --dark-blue-color: #142850;
+  --white-blue-color: #27496d;
+  --medium-blue-color: #00909e;
+  --blue-color: #34b6f7;
+  --gray-color: #dae1e7;
+  --black-second-color: #0d0d0d;
+
+  /* Typography */
+  --normal: 15px;
+
+  /* Spacing */
+  --space: 10px;
+
+  /* Box shadow */
+  --box: 0 0 2px #c1bcbc;
+}
+
 /*------------ variables ------------*/
 
 /*------------ body ------------*/
 
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 /*------------ body ------------*/
 
 /*------------ header ------------*/
 
-.text-job{
-    color: var(--medium-blue-color) !important;
+.text-job {
+  color: var(--medium-blue-color) !important;
 }
 
-#header img{
-    width: 60px;
-    height: 50px;
+#header img {
+  width: 60px;
+  height: 50px;
+}
+
+.navbar {
+  background-color: var(--blue-color) !important;
 }
 
 /*------------ header ------------*/
 
 /*------------ main ------------*/
 
-#main .carousel-inner img{
-    max-height: 70vh;
-    object-fit: cover;
-    opacity: 40%;
+#main .carousel-inner img {
+  max-height: 80vh;
+  object-fit: cover;
 }
 
-#main img{
-    max-width: 100%;
+@media only screen and (max-width: 320px) {
+  #main .carousel-inner img {
+    max-height: 100vh;
+  }
 }
 
-#main h5{
-    color: var(--dark-color);
+#main img {
+  max-width: 100%;
 }
 
-#carousel{
-    position: relative;
+#main p {
+  color: var(--dark-color);
 }
 
-#carousel .overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: var(--white-color);
-    z-index: 1;
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--white-color);
+  z-index: 1;
 }
 
 #carousel .overlay .container,
-#carousel .overlay .row{
-    height: 100%;
-    color: var(--white-color);
+#carousel .overlay .row {
+  height: 100%;
+  color: var(--white-color);
 }
 
 /*------------ main ------------*/
 
-#projects{
-    background-color: var(--white-color);
-    color: var(--dark-color);
+#projects {
+  background-color: var(--white-color);
+  color: var(--dark-color);
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 1.5s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.2);
+}
+
+#projects .card:hover {
+  border: 1px solid var(--black-second-color);
 }
 
 /*------------ expirience ------------*/
 
-#expirience{
-    background-color: var(--black-color);
-    color: var(--white-color);
+#expirience {
+  background-color: var(--black-color);
+  color: var(--white-color);
 }
 
-#expirience img{
-    object-fit: cover;
+#expirience img {
+  object-fit: cover;
 }
 
 /*------------ expirience ------------*/
 
 /*------------ clients ------------*/
 
-#clients img{
-    max-width: 100%;
+#clients img {
+  max-width: 100%;
 }
 
 /*------------ clients ------------*/
-
 
 /*------------ footer ------------*/
-#footer{
-    background-color: var(--black-second-color) ;
+#footer {
+  background-color: var(--black-second-color);
 }
 
-#footer h5{
-    color: var(--white-color);
-}
- 
-#footer p{
-    color: var(--white-color);
-    font-size: 13px;
+#footer h5 {
+  color: var(--white-color);
 }
 
-#footer p a{
-    text-decoration: none;
-    color: var(--white-color);
+#footer p {
+  color: var(--white-color);
+  font-size: 13px;
+}
+
+#footer p a {
+  text-decoration: none;
+  color: var(--white-color);
 }
 
 /*------------ footer ------------*/
