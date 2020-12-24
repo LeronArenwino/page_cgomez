@@ -258,13 +258,22 @@
                     </div>
                     <div class="modal-body text-center">
                       <p>
-                        <strong>Contratante: </strong>{{ project.contractor}}
+                        <img
+                          src="images/contract.png"
+                          alt="contract-image"
+                        /><strong> Contratante: </strong>{{ project.contractor}}
                         <br />
-                        <strong>Localización: </strong>{{project.localization}}
                         <br />
-                        <strong>Valor del contrato: </strong>{{
+                        <img src="images/place.png" alt="place-image" />
+                        <strong> Localización: </strong>{{project.localization}}
+                        <br />
+                        <br />
+                        <img src="images/tag.png" alt="price-image" />
+                        <strong> Valor del contrato: </strong>{{
                         project.contractValue}}
                         <br />
+                        <br />
+                        <img src="images/calendar.png" alt="calendar-image" />
                         <strong>Vigencia: </strong>{{ project.validity}}
                         <br />
                         <br />
